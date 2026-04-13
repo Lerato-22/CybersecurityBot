@@ -25,5 +25,5 @@ A C# console chatbot that teaches South African pupil about cybersecurity risks 
 - Responses.cs — all cybersecurity responses
 
  CI Workflow
-![CI](<img width="1892" height="655" alt="Screenshot 2026-04-13 160514" src="https://github.com/user-attachments/assets/eea360f6-b5d4-49cf-a200-839f19cd011a" />
-)
+<img width="1892" height="655" alt="Screenshot 2026-04-13 160514" src="https://github.com/user-attachments/assets/eea360f6-b5d4-49cf-a200-839f19cd011a" />
+
