@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore CybersecurityBot/CybersecurityBot.csproj
+      run: dotnet restore CybersecurityBot/CybersecurityBot/CybersecurityBot.csproj
     - name: Build
-      run: dotnet build --no-restore CybersecurityBot/CybersecurityBot.csproj
+      run: dotnet build --no-restore CybersecurityBot/CybersecurityBot/CybersecurityBot.csproj
     - name: Test
-      run: dotnet test --no-build --verbosity normal CybersecurityBot/CybersecurityBot.csproj
+      run: dotnet test --no-build --verbosity normal CybersecurityBot/CybersecurityBot/CybersecurityBot.csproj
